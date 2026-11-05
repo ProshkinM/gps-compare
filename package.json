@@ -1,0 +1,32 @@
+{
+  "name": "gps-compare",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "description": "Local web application for comparing UKUS and MNAV coordinates, NTP time and GNSS satellites",
+  "license": "UNLICENSED",
+  "keywords": [
+    "ntp",
+    "nmea",
+    "gnss",
+    "gps",
+    "glonass",
+    "mnav",
+    "ukus"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProshkinM/gps-compare.git"
+  },
+  "homepage": "https://github.com/ProshkinM/gps-compare#readme",
+  "bugs": {
+    "url": "https://github.com/ProshkinM/gps-compare/issues"
+  }
+}
